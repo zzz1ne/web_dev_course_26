@@ -26,7 +26,7 @@ end
 # Expected: double_numbers([1, 2, 3]) => [2, 4, 6]
 def double_numbers(arr)
   # TODO: Use .map method
-  return arr.map{|n|n*2}
+  return arr.map{ |n| n*2 }
 end
 
 # Exercise 4: Array filtering

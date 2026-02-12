@@ -44,7 +44,7 @@ end
 # Expected: filter_by_value({ a: 10, b: 5, c: 15 }, 8) => { a: 10, c: 15 }
 def filter_by_value(hash, threshold)
   # TODO: Use .select method
-  return hash.select{|x,y| y > threshold}
+  return hash.select{|_,y| y > threshold}
 end
 
 # Exercise 6: Hash merging

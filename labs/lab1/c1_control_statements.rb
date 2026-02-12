@@ -65,7 +65,7 @@ end
 # Return an array of numbers from 1 to n
 # Expected: count_up(5) => [1, 2, 3, 4, 5]
 def count_up(n)
-  arr = Array[]
+  arr = Array.new
   i = 1
   while i<=n 
     arr.push(i)
@@ -118,7 +118,8 @@ end
 # Expected: check_size(150) => "big"
 # Expected: check_size(50) => 50
 def check_size(num)
-  return "big" if num > 100; return num
+  return "big" if num > 100
+  num
 end
 
 # ============================================
